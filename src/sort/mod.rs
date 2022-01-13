@@ -16,6 +16,8 @@ mod stooge_sort;
 
 pub use bubble_sort::bubble_sort;
 
+pub use quick_sort::partition;
+
 #[allow(unused)]
 pub fn is_sorted<T: Ord>(ve2: &[T]) -> bool {
     if ve2.is_empty() {
