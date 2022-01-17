@@ -1,3 +1,4 @@
+mod graph_theory;
 mod searchs;
 mod sort;
 mod strs;
